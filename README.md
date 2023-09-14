@@ -46,7 +46,7 @@ Response:
 ``` 
 
 ### Update Person Resource
-URL - /api/persons/11
+URL - /api/persons/{id}
 
 This requires sending an id parameter to query the  database to perform an edit operation using the PUT request.
 
@@ -67,7 +67,7 @@ Response:
 ```
 
 ### Delete Person Resource
-URL - /api/persons/11
+URL - /api/persons/{id}
 
 This is to remove the person resource from database through the DELETE request providing an id parameter
 
