@@ -11,14 +11,17 @@ This takes a POST request to create/add attribute to the database.
 
 Request Body:
 
-``` curl -d '{"name": "Adel"}' -H 'Content-Type: application/json' -X POST http://api:port/api/v1/path
+```
+curl -d '{"name": "Adel"}' -H 'Content-Type: application/json' -X POST http://api:port/api/v1/path
 ```
 Response:
 
-``` {'message':'Successfully Created', 
+```
+{'message':'Successfully Created', 
   'status_code': 201, 
    'data': { "id": 11,
               "name": "Adel"
             }
-} ```
+}
+```
  
