@@ -1,6 +1,6 @@
 ## Task Name: Basic CRUD Application with a Person Resource
 ### Description
-This task executes a Create-Retrieve-Update-Delete    Operation on a person resource "name".
+This task executes a Create-Retrieve-Update-Delete    CRUD Operation on a person resource "name".
 
 ## Endpoints
 
