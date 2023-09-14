@@ -10,7 +10,8 @@ URL - /api
 This takes a POST request to create/add attribute to the database.
 
 Request Body:
-```curl -X POST -H "Content-Type: application/json" \
+```
+curl -X POST -H "Content-Type: application/json" \
     -d '{"name": "linuxize"}' \
     https://example/api
 ```
