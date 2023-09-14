@@ -23,12 +23,12 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::post('/{name?}', [PersonController::class, 'store'])->whereAlpha('name');
 
 // Retrieve Person Resource with Person ID
-Route::get('/{person_id}', [PersonController::class, 'show']);
+Route::get('persons/{person_id}', [PersonController::class, 'show']);
 
 // Edit Person Resource with Person ID
-Route::put('/{person_id}', [PersonController::class, 'edit']);
+Route::put('persons/{person_id}', [PersonController::class, 'edit']);
 
 // Delete Person Resource with Person ID
-Route::delete('/{person_id}', [PersonController::class, 'delete']);
+Route::delete('persons/{person_id}', [PersonController::class, 'delete']);
 
 
