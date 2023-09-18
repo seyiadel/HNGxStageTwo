@@ -2,6 +2,9 @@
 echo "Running composer"
 composer install --no-dev --working-dir=/var/www/html
 
+echo "Existing Repo to Render"
+php artisan make:auth
+
 echo "generating application key"
 php artisan key:generate --show
 
